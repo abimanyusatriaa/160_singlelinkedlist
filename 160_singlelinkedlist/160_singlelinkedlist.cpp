@@ -11,7 +11,18 @@ struct Node {
 Node* START = NULL;
 
 void addNode() {
+    int nim;
+    Node* nodeBaru = new Node();
+    cout << "Masukan NIM: ";
+    cin >> nim;
+    cout << "Masukan Nama: ";
+    cin >> nama;
+    nodeBaru->noMhs = nim;
+    nodeBaru->name = nama;
 
+    if (START == NULL || nim <= START->noMhs) {
+
+    }
 }
 
 int main()
