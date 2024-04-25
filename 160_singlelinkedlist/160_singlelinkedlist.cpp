@@ -35,7 +35,7 @@ void addNode() {
     Node* previous = START;
     Node* current = START;
 
-    while ((current. != NULL) && (NIM >= current->noMhs))
+    while ((current != NULL) && (nim >= current->noMhs))
     {
         if (nim == current->noMhs)
         {
@@ -47,7 +47,7 @@ void addNode() {
     }
     
     nodeBaru->next = current;
-    previous->next = nodebaru;
+    previous->next = nodeBaru;
 }
 
 bool searchNode(int nim, Node* current, Node* previous) {
@@ -72,6 +72,11 @@ bool searchNode(int nim, Node* current, Node* previous) {
         return false;
     }
 }
+
+bool deleteNode(int nim) {
+    Node* current = START;
+    Node* previous = START;
+
 
 int main()
 {
