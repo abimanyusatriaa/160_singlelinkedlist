@@ -37,7 +37,10 @@ void addNode() {
 
     while ((current. != NULL) && (NIM >= current->noMhs))
     {
+        if (nim == current->noMhs)
+        {
 
+        }
     }
 }
 
